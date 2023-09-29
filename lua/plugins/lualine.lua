@@ -1,10 +1,13 @@
 return {
   {
     "nvim-lualine/lualine.nvim",
-    event="VeryLazy",
+    event = "VeryLazy",
     opts = {
       options = {
-      }
-    }
-  }
+        section_separators = { "", "" },
+        component_separators = { "", "" },
+        icons_enabled = true,
+      },
+    },
+  },
 }
